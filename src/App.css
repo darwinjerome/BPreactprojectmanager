@@ -1,0 +1,128 @@
+html, body, title, h1, h2, h3, h4, h5 ,h6{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+
+}
+h1{
+    color: white;
+    margin: 20px auto;
+}
+h2, h3, h4, h5,h6, span{
+    margin: 20px 0 0 10px;
+}
+
+p{
+    margin: 0 10px;
+}
+
+ol, li{
+    font-weight: 100;
+}
+li.Project{
+    background-color: #2A355B;
+    height: 30px;
+    margin: 2px auto;
+    padding: 10px 0 0 15px;
+    vertical-align: middle;
+    color: whitesmoke;
+    list-style: none;
+}
+li.Project button{
+    float: right;
+    margin-right: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 18%;
+    height: 20px;
+    text-align: left;
+    background-color: #01BFFD;
+    padding: 2px 5px;
+    border: 1px solid #b6b6b6;
+    vertical-align: bottom;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 0 0 10px;
+}
+input, select{
+    vertical-align: bottom;
+    width: 75%;
+    height: 20px;
+    padding: 2px;
+    border: 1px solid #b6b6b6;   
+}
+select{
+    font-size: 1em;
+    height: 26px;
+    width: 76%;
+    border-radius: 0;
+    -webkit-appearance: none;
+    background-color: white;
+}
+
+input[type=submit] {
+    width:150px;
+    float: right;
+    margin-right: 7px;
+}
+
+#header{
+    background-color: #01BFFD;
+    height: 50px;
+    box-shadow: 2px 3px 12px #4e5053;
+ 
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.banner{
+    background-color: #2A355B;
+    height: 34%;
+    margin: 0;
+    padding: 10px 20px;
+    color: azure;
+}
+
+.block{
+    margin: 10px auto;
+}
+.divclear{
+    clear: both;
+}
+.main-content{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.add-project{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 160px;
+    padding-top: 1px;
+}
+
+/* mobile devices */
+@media only screen and (max-width: 500px) {
+    .main-content{
+        width: 100vw;
+    }
+
+    input, select{
+        width: 65%;
+        
+    }
+
+    input[type=submit] {
+        margin-right: 16px;
+    }
+
+    label{
+        width: 25%;
+    }
+}
