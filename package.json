@@ -15,5 +15,21 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "This is an example of a simple product management module. I want to showcase a basic React.js implementation including:",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darwinjerome/portfolio-reactprojectmanager.git"
+  },
+  "keywords": [
+    "reactjs",
+    "nodejs"
+  ],
+  "author": "Darwin Jerome Tardio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darwinjerome/portfolio-reactprojectmanager/issues"
+  },
+  "homepage": "https://github.com/darwinjerome/portfolio-reactprojectmanager#readme"
 }

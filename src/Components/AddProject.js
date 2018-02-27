@@ -31,9 +31,15 @@ class AddProject extends Component {
     }
 
     render() {
-        let categoryOptions = this.props.products.map(product => {
+        // loads categories from existing list/props
+        /* let categoryOptions = this.props.products.map(product => {
             return <option key={uuid.v4()} value={product.category}>{product.category}</option>
-        })
+        }) */
+
+        //loads the static defaultProps
+        let categoryOptions = this.props.categories.map(category => {
+            return <option key={category} value={category}>{category}</option>
+        });
         
     return (
       <div>
