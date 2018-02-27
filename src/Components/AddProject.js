@@ -11,7 +11,7 @@ class AddProject extends Component {
     }
 
     static defaultProps = {
-        categories: ["Web Design", "Mobile Design", "Web Development"]
+        categories: ["Apple Laptop", "Desktop Computer", "Gaming Desktop"]
     }
 
     handleSubmit(e){
