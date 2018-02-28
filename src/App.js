@@ -82,7 +82,8 @@ class App extends Component {
           
           <div className="banner">
             <h1>React.js Demo</h1>
-            <p>This is an example of a simple product management module. I want to showcase a basic React.js implementation including:</p> <p>Create-react-app CLI, ReactJS Components, State & Properties, Event Handling, JSX - JavaScript Syntax Extension, Lifecycle Methods, HTTP Requests</p>
+            <p>This is an example of a simple product management module. I want to showcase a basic React.js implementation including:</p> <p>Create-react-app CLI, ReactJS Components, State & Properties, Event Handling, JSX - JavaScript Syntax Extension, Lifecycle Methods, HTTP Requests.</p>
+            <p>This app is deployed via AWS Elastic Beanstalk.</p>
           </div>
           <div className="content-body">
             <div className="add-project">
