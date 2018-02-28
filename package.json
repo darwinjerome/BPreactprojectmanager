@@ -1,6 +1,12 @@
 {
   "name": "portfolio-reactprojectmanager",
   "version": "0.1.0",
+  "author": "Darwin Jerome Tardio",
+  "license": "MIT",
+  "homepage": "https://github.com/darwinjerome/portfolio-reactprojectmanager#readme",
+  "bugs": {
+    "url": "https://github.com/darwinjerome/portfolio-reactprojectmanager/issues"
+  },
   "private": true,
   "dependencies": {
     "jquery": "^3.3.1",
@@ -25,11 +31,5 @@
   "keywords": [
     "reactjs",
     "nodejs"
-  ],
-  "author": "Darwin Jerome Tardio",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/darwinjerome/portfolio-reactprojectmanager/issues"
-  },
-  "homepage": "https://github.com/darwinjerome/portfolio-reactprojectmanager#readme"
+  ]
 }
