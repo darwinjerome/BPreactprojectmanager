@@ -11,4 +11,4 @@ This is an example of a simple product management module showcasing a React.js i
 - HTTP Requests
 - AWS Elastic Beanstalk, S3
 
-# Darwin Tardio
+# Darwin Jerome
