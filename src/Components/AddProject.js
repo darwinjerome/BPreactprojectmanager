@@ -11,7 +11,7 @@ class AddProject extends Component {
     }
 
     static defaultProps = {
-        categories: ["Apple Laptop", "Desktop Computer", "Gaming Desktop"]
+        categories: ["Programming", "Design", "Server Management"]
     }
 
     handleSubmit(e){
@@ -43,10 +43,10 @@ class AddProject extends Component {
         
     return (
       <div>
-        <h3>Add Product</h3>
+        <h3>Add Task</h3>
         <form onSubmit={this.handleSubmit.bind(this)}>
             <div className="block">
-                <label> Name</label>
+                <label> Task</label>
                 <input type="text" ref="title" />
             </div>
             <div className="block">
@@ -56,7 +56,7 @@ class AddProject extends Component {
                 </select>
             </div>
             <div className="block">
-                <input type="submit" value="Submit" />
+                <input type="submit" value="ADD IT" />
             </div>
         </form>
       </div>

@@ -9,14 +9,14 @@ class Todos extends Component {
         todoItems = this.props.todos.map(todo => {
         
         return (
-          <TodoItem key={todo.title} todo={todo} />
+          <TodoItem key={todo.id} todo={todo} />
         );
       });
     }
     return (
       <div className="Todos">
-        <h3>Product Suppliers</h3>
-        <p>Data from this list are source from external API and rendered by React.js. <a href="https://jsonplaceholder.typicode.com/todos">view api</a></p>
+        <h3>All Projects from API</h3>
+        <p>Data from this list are source from external API and rendered by React.js. <a href="https://s3-ap-southeast-2.amazonaws.com/api-data-sources/sampledata.json">view api</a></p>
         <ol>
             {todoItems}
         </ol>

@@ -16,7 +16,8 @@ class App extends Component {
 
   getTodos(){
     $.ajax({
-      url: "https://jsonplaceholder.typicode.com/todos",
+      //url: "https://jsonplaceholder.typicode.com/todos",
+      url: "https://s3-ap-southeast-2.amazonaws.com/api-data-sources/sampledata.json",
       dataType: "json",
       cache: false,
       success: function(data){
@@ -35,18 +36,18 @@ class App extends Component {
     this.setState({projects: [
       {
         id:uuid.v4(),
-        title: "Macbook Pro 15",
-        category: "Apple Laptop"
+        title: "Build mobile responsive React website ",
+        category: "Programming"
       },
       {
         id:uuid.v4(),
-        title: "Dell Desktop Intel i7",
-        category: "Desktop Computer"
+        title: "Design draft for mobile and web application",
+        category: "Creatives"
       },
       {
         id:uuid.v4(),
-        title: "Alienware Aurora",
-        category: "Gaming Desktop"
+        title: "Setup EBS and Route53 on AWS",
+        category: "Server Management"
       }
     ]});
   }
@@ -82,7 +83,7 @@ class App extends Component {
           
           <div className="banner">
             <h1>React.js Demo</h1>
-            <p>This is an example of a simple product management module. I want to showcase a basic React.js implementation including:</p> <p>Create-react-app CLI, ReactJS Components, State & Properties, Event Handling, JSX - JavaScript Syntax Extension, Lifecycle Methods, HTTP Requests.</p>
+            <p>This is an example of a simple product management module showcasing a React.js implementation including:</p> <p>Create-react-app CLI, ReactJS Components, State & Properties, Event Handling, JSX - JavaScript Syntax Extension, Lifecycle Methods, HTTP Requests.</p>
             <p>This app is deployed via AWS Elastic Beanstalk.</p>
           </div>
           <div className="content-body">
