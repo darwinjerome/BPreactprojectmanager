@@ -22,7 +22,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "description": "This is an example of a simple product management module. I want to showcase a basic React.js implementation including:",
+  "description": "This is an example of a simple product management module.",
   "main": "index.js",
   "repository": {
     "type": "git",
